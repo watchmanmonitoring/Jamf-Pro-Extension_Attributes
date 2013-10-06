@@ -14,9 +14,9 @@ This Monitoring Client ships with an ExportStatus tool, for use with third party
 
 Calling 
 
-    /Library/MonitoringClient/Utilities/ExportStatus
+    sudo /Library/MonitoringClient/Utilities/ExportStatus
     
-Will cause the Monitoring Client to output a summary of the current system status to a plist at
+will cause the Monitoring Client to output a summary of the current system status to a plist at:
 
     /Library/MonitoringClient/ClientData/UnifiedStatus.plist
     

@@ -3,6 +3,10 @@ JAMF / Watchman Monitoring ExtensionAttribute
 
 An Extension Attribute to display the current Watchman Monitoring status in a JSS
 
+Additional information at our support article
+
+https://www.watchmanmonitoring.com/jamf
+
 
 Purpose
 =======
@@ -79,3 +83,10 @@ https://macconsultinggroup-com.watchmanmonitoring.com/client/20130818-N9F4-XCI4J
 </dict>
 </plist>
 ```
+
+Additional Information
+==============
+Be sure to review additional information at our support site:
+
+http://www.watchmanmonitoring.com/jamf
+

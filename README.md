@@ -31,8 +31,8 @@ The resulting plist contains 5 keys:
 |Key            |Type|Purpose
 |----------------|-----|------
 |Client URL     |URL|View the full details in the Watchman Monitoring Server
-|CurrentError    |BOOL|Is a plugin currently reporting a problem
-|CurrentWarning |BOOL|Is a plugin currently sending informational output (aside from "all's well")
+|CurrentWarning    |BOOL|Is a plugin currently reporting a problem
+|CurrentNotice |BOOL|Is a plugin currently sending informational output (aside from "all's well")
 |ReportData     |String|A plain-text list of plugins and their status.
 |ReportTime      |DateTime| The time the output was generated
 

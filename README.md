@@ -48,9 +48,9 @@ Sample Output
 <dict>
 	<key>ClientURL</key>
 	<string>https://demo.monitoringclient.com/client/YYYYMMDD-XXXX-YYYYYY</string>
-	<key>CurrentError</key>
-	<true/>
 	<key>CurrentWarning</key>
+	<true/>
+	<key>CurrentNotice</key>
 	<true/>
 	<key>ReportData</key>
 	<string>Check Laptop Battery	OK

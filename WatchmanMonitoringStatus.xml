@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE extensionAttribute PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <extensionAttribute>
-  <displayName>Monitoring Client Heath Report</displayName>
+  <displayName>Watchman Monitoring Heath Report</displayName>
   <displayInCategory/>
   <dataType>string</dataType>
   <description>This will display the latest overall health report according to the Watchman Monitoring agent.</description>

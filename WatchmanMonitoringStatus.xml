@@ -7,8 +7,8 @@
   <description>This will display the latest overall health report according to the Watchman Monitoring agent.</description>
   <scriptContentsMac>#!/bin/sh
 if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then
-   echo "`/Library/MonitoringClient/Utilities/ExportStatus -v`"
+   echo "<result>`/Library/MonitoringClient/Utilities/ExportStatus -v`</result>
 else
-  echo "Watchman not installed"
+  echo "<result>Watchman not installed</result>
 fi</scriptContentsMac>
 </extensionAttribute>

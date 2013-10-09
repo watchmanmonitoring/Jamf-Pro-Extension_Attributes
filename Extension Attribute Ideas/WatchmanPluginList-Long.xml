@@ -4,7 +4,7 @@
   <displayName>Watchman Monitoring Heath Report</displayName>
   <displayInCategory/>
   <dataType>string</dataType>
-  <description>This will display the latest overall health report according to the Watchman Monitoring agent.</description>
+  <description>This will display a list of all Watchman Monitoring plugins active on the computer, and their reported status.</description>
   <scriptContentsMac>#!/bin/sh
 if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then
    echo "<result>`/Library/MonitoringClient/Utilities/ExportStatus -v`</result>"

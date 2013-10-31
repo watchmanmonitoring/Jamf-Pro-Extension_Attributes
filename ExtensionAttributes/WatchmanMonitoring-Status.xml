@@ -10,7 +10,7 @@
 if [ defaults read /Library/MonitoringClient/ClientData/UnifiedStatus.plist CurrentWarning ]; then
    result="Has Issue"
 else
-   result="No Issue Detected"
+   result="No problems detected"
 fi
 echo "<result>$result</result>"
 fi

@@ -1,11 +1,10 @@
-
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE extensionAttribute PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <extensionAttribute>
   <displayName>Watchman Monitoring Error Condition</displayName>
   <displayInCategory/>
   <dataType>string</dataType>
-  <description>This will return true when Watchman Monitoring is reporting an error.</description>
+  <description>This attribute return true when Watchman Monitoring is reporting an error.</description>
   <scriptContentsMac>#!/bin/sh
 
 if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then

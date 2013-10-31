@@ -7,6 +7,8 @@
   <dataType>string</dataType>
   <description>This will return true when Watchman Monitoring is reporting an error.</description>
   <scriptContentsMac>#!/bin/sh
+
+if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then
 if [ defaults read /Library/MonitoringClient/ClientData/UnifiedStatus.plist CurrentWarning ]; then
    result="Has Issue"
 else
@@ -14,5 +16,7 @@ else
 fi
 echo "<result>$result</result>"
 fi
+  echo "<result>Watchman Monitoring not installed</result>"
+  fi
    </scriptContentsMac>
 </extensionAttribute>

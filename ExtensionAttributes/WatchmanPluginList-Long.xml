@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE extensionAttribute PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
 <extensionAttribute>
-  <displayName>Watchman Monitoring Heath Report</displayName>
-  <displayInCategory/>
-  <dataType>string</dataType>
-  <description>This will display a list of all Watchman Monitoring plugins active on the computer, and their reported status.</description>
-  <scriptContentsMac>#!/bin/sh
-if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then
-   echo "<result>`/Library/MonitoringClient/Utilities/ExportStatus -v`</result>"
-else
-  echo "<result>Watchman not installed</result>"
+<displayName>Watchman Monitoring-Full Report</displayName>
+<description>Displays a list of all plugins active on the computer, and their status.</description>
+<dataType>string</dataType>
+<scriptContentsMac>#!/bin/sh&#13;
+if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then&#13;
+   echo "&lt;result&gt;`/Library/MonitoringClient/Utilities/ExportStatus -v`&lt;/result&gt;"&#13;
+else&#13;
+  echo "&lt;result&gt;Watchman Monitoring not installed&lt;/result&gt;"&#13;
 fi</scriptContentsMac>
+<scriptContentsWindows/>
 </extensionAttribute>

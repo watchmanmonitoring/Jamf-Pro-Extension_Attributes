@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE extensionAttribute PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
 <extensionAttribute>
-  <displayName>Watchman Monitoring Computer URL</displayName>
-  <displayInCategory/>
-  <dataType>string</dataType>
-  <description>This will display a computer's Watchman Monitoring URL, where its full status can be reviewed.</description>
-  <scriptContentsMac>#!/bin/sh
-if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then
-   echo "<result>`defaults read /Library/MonitoringClient/ClientData/UnifiedStatus.plist ClientURL`</result>"
-else
-  echo "<result>Watchman Monitoring not installed</result>"
+<displayName>Watchman Monitoring Computer URL</displayName>
+<description>Displays the URL to a monitored computer's record in Watchman Monitoring.</description>
+<dataType>string</dataType>
+<scriptContentsMac>#!/bin/sh&#13;
+if [ -f /Library/MonitoringClient/Utilities/ExportStatus ]; then&#13;
+   echo "&lt;result&gt;`defaults read /Library/MonitoringClient/ClientData/UnifiedStatus.plist ClientURL`&lt;/result&gt;"&#13;
+else&#13;
+  echo "&lt;result&gt;Watchman Monitoring not installed&lt;/result&gt;"&#13;
 fi</scriptContentsMac>
+<scriptContentsWindows/>
 </extensionAttribute>

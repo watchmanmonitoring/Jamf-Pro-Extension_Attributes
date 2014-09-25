@@ -77,16 +77,9 @@ Report Reboot Events	Warning
 Report SMART Errors	OK
 Time Machine Exclusions	OK
 
-https://macconsultinggroup-com.watchmanmonitoring.com/client/20130818-N9F4-XCI4JD</string>
+https://demo.monitoringclient.com/client/20130818-N9F4-XCI4JD</string>
 	<key>ReportTime</key>
 	<date>2013-10-05T13:49:03Z</date>
 </dict>
 </plist>
 ```
-
-Additional Information
-==============
-Be sure to review additional information at our support site:
-
-http://www.watchmanmonitoring.com/jamf
-

@@ -47,7 +47,7 @@ Sample Output
 <plist version="1.0">
 <dict>
 	<key>ClientURL</key>
-	<string>https://demo.monitoringclient.com/client/YYYYMMDD-XXXX-YYYYYY</string>
+	<string>https://app.monitoringclient.com/computers/YYYYMMDD-XXXX-YYYYYY</string>
 	<key>CurrentWarning</key>
 	<true/>
 	<key>CurrentNotice</key>
@@ -77,7 +77,7 @@ Report Reboot Events	Warning
 Report SMART Errors	OK
 Time Machine Exclusions	OK
 
-https://demo.monitoringclient.com/client/20130818-N9F4-XCI4JD</string>
+https://app.monitoringclient.com/computers/YYYYMMDD-XXXX-YYYYYY</string>
 	<key>ReportTime</key>
 	<date>2013-10-05T13:49:03Z</date>
 </dict>

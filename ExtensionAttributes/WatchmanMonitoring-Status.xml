@@ -5,14 +5,14 @@
 <scriptContentsMac>#!/bin/bash&#13;
 &#13;
 if [[ -f /Library/MonitoringClient/Utilities/ExportStatus ]]; then&#13;
-	if [[ $(defaults read /Library/MonitoringClient/ClientData/UnifiedStatus.plist CurrentWarning) -gt 0 ]]; then&#13;
-  	 	result="Has issue"&#13;
-	else&#13;
-   		result="No problems detected"&#13;
-	fi&#13;
-	echo "&lt;result&gt;$result&lt;/result&gt;"&#13;
+    if [[ $(defaults read /Library/MonitoringClient/ClientData/UnifiedStatus.plist CurrentWarning) -gt 0 ]]; then&#13;
+         result="Has issue"&#13;
+    else&#13;
+        result="No problems detected"&#13;
+    fi&#13;
+    echo "&lt;result&gt;$result&lt;/result&gt;"&#13;
 else&#13;
-	echo "&lt;result&gt;Watchman Monitoring not installed&lt;/result&gt;"&#13;
+    echo "&lt;result&gt;Watchman Monitoring not installed&lt;/result&gt;"&#13;
 fi</scriptContentsMac>
 <scriptContentsWindows/>
 </extensionAttribute>

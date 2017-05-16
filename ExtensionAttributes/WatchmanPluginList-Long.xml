@@ -3,10 +3,11 @@
 <description>Displays a list of all plugins active on the computer, and their status.</description>
 <dataType>string</dataType>
 <scriptContentsMac>#!/bin/bash&#13;
+&#13;
 if [[ -f /Library/MonitoringClient/Utilities/ExportStatus ]]; then&#13;
-   echo "&lt;result&gt;$(/Library/MonitoringClient/Utilities/ExportStatus -v)&lt;/result&gt;"&#13;
+    echo "&lt;result&gt;$(/Library/MonitoringClient/Utilities/ExportStatus -v)&lt;/result&gt;"&#13;
 else&#13;
-  echo "&lt;result&gt;Watchman Monitoring not installed&lt;/result&gt;"&#13;
+    echo "&lt;result&gt;Watchman Monitoring not installed&lt;/result&gt;"&#13;
 fi</scriptContentsMac>
 <scriptContentsWindows/>
 </extensionAttribute>

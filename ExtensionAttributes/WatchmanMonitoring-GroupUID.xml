@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><extensionAttribute>
-<displayName>Watchman Monitoring Computer URL</displayName>
+<displayName>Watchman Monitoring Group UID</displayName>
 <description>Displays the device's GroupUID, useful in query's the Watchman Monitoring API.</description>
 <dataType>string</dataType>
 <scriptContentsMac>#!/bin/bash&#13;
